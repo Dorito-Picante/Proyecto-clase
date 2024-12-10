@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffaaf4;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff00c8;
+}
+
+section {
+    background-color: #ffaaf4;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+main {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40%;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.producto {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 60px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 300px;
+    height: 200px;
+}
+
+button {
+    background-color: #ff00c8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffaaf4;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ffaaf4;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form{
+    background-color: white;
+}
+
+label{
+    color: #000000;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    
+}
+
+h2{
+    background: #ffaaf4;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+}
